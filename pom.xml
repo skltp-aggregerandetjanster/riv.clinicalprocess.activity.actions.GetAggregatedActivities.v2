@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <artifactId>agp-parent</artifactId>
+    <groupId>se.skltp.agp</groupId>
+    <version>3.0.0-RC2</version>
+  </parent>
+
+  <groupId>se.skltp.aggregatingservices.riv.crm.requeststatus</groupId>
+  <artifactId>GetAggregatedRequestActivities-v2</artifactId>
+  <version>3.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>GetAggregatedRequestActivities-v2</name>
+
+  <properties>
+    <agp-parent.version>3.0.0-RC2</agp-parent.version>
+    <apache-cfx.version>3.2.7</apache-cfx.version>
+  </properties>
+
+  <scm>
+    <url>
+      http://github.com/skltp-aggregerandetjanster/riv.crm.requeststatus.GetAggregatedRequestActivities.v2
+    </url>
+    <connection>
+      scm:git:https://github.com:443/skltp-aggregerandetjanster/riv.crm.requeststatus.GetAggregatedRequestActivities.v2.git
+    </connection>
+    <developerConnection>
+      scm:git:https://github.com:443/skltp-aggregerandetjanster/riv.crm.requeststatus.GetAggregatedRequestActivities.v2.git
+    </developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+
+  <modules>
+    <module>GetAggregatedRequestActivities-v2-schemas</module>
+    <module>GetAggregatedRequestActivities-v2-teststub</module>
+    <module>GetAggregatedRequestActivities-v2-main</module>
+    <module>GetAggregatedRequestActivities-v2-runner</module>
+  </modules>
+</project>
