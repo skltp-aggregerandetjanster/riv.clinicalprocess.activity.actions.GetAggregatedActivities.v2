@@ -29,7 +29,7 @@
     <wsdl:documentation>
         Tjänsteinteraktionens namn: GetRequestActivitiesInteraction
         Beskrivning:
-        Retrieves a list of all activities recorded for a request/order/referral
+        Returnerar en lista med status för en patients remisser.
         Revisioner:
         Tjänstedomän: crm:requeststatus
         Tjänsteinteraktionstyp: Fråga-Svar
