@@ -36,7 +36,7 @@
               <wsdlOptions>
                 <wsdloption>
                   <wsdl>
-                    ${schema.path}/TD_REQUESTSTATUS_2_0_RC6/interactions/GetRequestActivitiesInteraction/GetRequestActivitiesInteraction_2.0_RIVTABP21.wsdl
+                    ${schema.path}/interactions/GetRequestActivitiesInteraction/GetRequestActivitiesInteraction_2.0_RIVTABP21.wsdl
                   </wsdl>
                   <extraargs>
                     <extraarg>-p</extraarg>

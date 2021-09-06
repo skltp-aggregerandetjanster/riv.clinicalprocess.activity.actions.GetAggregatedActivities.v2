@@ -30,7 +30,7 @@
   <con:entry key="Domain" value=""/>
   <con:entry key="Tool Args" value=""/>
   <con:entry key="Save Project" value="false"/>
-</xml-fragment>]]></con:setting></con:settings><con:interface xsi:type="con:WsdlInterface" wsaVersion="NONE" name="GetRequestActivitiesResponderBinding" type="wsdl" bindingName="{urn:riv:crm:requeststatus:GetRequestActivities:2:rivtabp21}GetRequestActivitiesResponderBinding" soapVersion="1_1" anonymous="optional" definition="file:/C:/AGP/GRA2/GetAggregatedRequestActivities-schemas/src/main/resources/schemas/TD_REQUESTSTATUS_20200218/interactions/GetRequestActivitiesInteraction/GetRequestActivitiesInteraction_2.0_RIVTABP21.wsdl" id="362d001b-5c23-4531-8b82-be9c98ea0107" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="file:/C:/AGP/GRA2/GetAggregatedRequestActivities-schemas/src/main/resources/schemas/TD_REQUESTSTATUS_20200218/interactions/GetRequestActivitiesInteraction/GetRequestActivitiesInteraction_2.0_RIVTABP21.wsdl"><con:part><con:url>file:/C:/AGP/GRA2/GetAggregatedRequestActivities-schemas/src/main/resources/schemas/TD_REQUESTSTATUS_20200218/interactions/GetRequestActivitiesInteraction/GetRequestActivitiesInteraction_2.0_RIVTABP21.wsdl</con:url><con:content><![CDATA[<!--Licensed to the Apache Software Foundation (ASF) under one
+</xml-fragment>]]></con:setting></con:settings><con:interface xsi:type="con:WsdlInterface" wsaVersion="NONE" name="GetRequestActivitiesResponderBinding" type="wsdl" bindingName="{urn:riv:crm:requeststatus:GetRequestActivities:2:rivtabp21}GetRequestActivitiesResponderBinding" soapVersion="1_1" anonymous="optional" definition="file:/C:/AGP/GRA2/GetAggregatedRequestActivities-schemas/src/main/resources/schemas/interactions/GetRequestActivitiesInteraction/GetRequestActivitiesInteraction_2.0_RIVTABP21.wsdl" id="362d001b-5c23-4531-8b82-be9c98ea0107" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="file:/C:/AGP/GRA2/GetAggregatedRequestActivities-schemas/src/main/resources/schemas/interactions/GetRequestActivitiesInteraction/GetRequestActivitiesInteraction_2.0_RIVTABP21.wsdl"><con:part><con:url>file:/C:/AGP/GRA2/GetAggregatedRequestActivities-schemas/src/main/resources/schemas/interactions/GetRequestActivitiesInteraction/GetRequestActivitiesInteraction_2.0_RIVTABP21.wsdl</con:url><con:content><![CDATA[<!--Licensed to the Apache Software Foundation (ASF) under one
  or more contributor license agreements. See the NOTICE file
  distributed with this work for additional information
  regarding copyright ownership. Sveriges Kommuner och Landsting licenses this file
@@ -94,7 +94,7 @@
       <soap:address location="http://tempuri.org"/>
     </wsdl:port>
   </wsdl:service>
-</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part><con:part><con:url>file:\C:\AGP\GRA2\GetAggregatedRequestActivities-schemas\src\main\resources\schemas\TD_REQUESTSTATUS_20200218\interactions\GetRequestActivitiesInteraction\GetRequestActivitiesResponder_2.0.xsd</con:url><con:content><![CDATA[<!--Licensed to the Apache Software Foundation (ASF) under one
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part><con:part><con:url>file:\C:\AGP\GRA2\GetAggregatedRequestActivities-schemas\src\main\resources\schemas\interactions\GetRequestActivitiesInteraction\GetRequestActivitiesResponder_2.0.xsd</con:url><con:content><![CDATA[<!--Licensed to the Apache Software Foundation (ASF) under one
  or more contributor license agreements. See the NOTICE file
  distributed with this work for additional information
  regarding copyright ownership. Sveriges Kommuner och Landsting licenses this file
@@ -131,7 +131,7 @@
       <xs:any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
     </xs:sequence>
   </xs:complexType>
-</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>file:\C:\AGP\GRA2\GetAggregatedRequestActivities-schemas\src\main\resources\schemas\TD_REQUESTSTATUS_20200218\core_components\crm_requeststatus_2.0.xsd</con:url><con:content><![CDATA[<!--Licensed to the Apache Software Foundation (ASF) under one
+</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>file:\C:\AGP\GRA2\GetAggregatedRequestActivities-schemas\src\main\resources\schemas\core_components\crm_requeststatus_2.0.xsd</con:url><con:content><![CDATA[<!--Licensed to the Apache Software Foundation (ASF) under one
  or more contributor license agreements. See the NOTICE file
  distributed with this work for additional information
  regarding copyright ownership. Sveriges Kommuner och Landsting licenses this file
@@ -297,7 +297,7 @@
       <xs:pattern value="(19|20)\d\d(0[1-9]|1[012])(0[1-9]|[12][0-9]|3[01])"/>
     </xs:restriction>
   </xs:simpleType>
-</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>file:\C:\AGP\GRA2\GetAggregatedRequestActivities-schemas\src\main\resources\schemas\TD_REQUESTSTATUS_20200218\core_components\itintegration_registry_1.0.xsd</con:url><con:content><![CDATA[<xs:schema targetNamespace="urn:riv:itintegration:registry:1" elementFormDefault="qualified" version="1.0" xmlns="urn:riv:itintegration:registry:1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>file:\C:\AGP\GRA2\GetAggregatedRequestActivities-schemas\src\main\resources\schemas\core_components\itintegration_registry_1.0.xsd</con:url><con:content><![CDATA[<xs:schema targetNamespace="urn:riv:itintegration:registry:1" elementFormDefault="qualified" version="1.0" xmlns="urn:riv:itintegration:registry:1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>Beskrivning: 	Grundl��ggande informationsobjekt f��r dom��nen itintegration:registry (adressering av tj��nster)
 			

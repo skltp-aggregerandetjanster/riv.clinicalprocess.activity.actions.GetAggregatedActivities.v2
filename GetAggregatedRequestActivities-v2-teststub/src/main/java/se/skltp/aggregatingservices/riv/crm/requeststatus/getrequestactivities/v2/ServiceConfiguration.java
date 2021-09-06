@@ -12,7 +12,7 @@ import se.skltp.aggregatingservices.config.TestProducerConfiguration;
 @ConfigurationProperties(prefix="getaggregatedrequestactivities.v2.teststub")
 public class ServiceConfiguration extends TestProducerConfiguration {
 
-  public static final String SCHEMA_PATH = "/schemas/TD_REQUESTSTATUS_20200218/interactions/GetRequestActivitiesInteraction/GetRequestActivitiesInteraction_2.0_RIVTABP21.wsdl";
+  public static final String SCHEMA_PATH = "/schemas/interactions/GetRequestActivitiesInteraction/GetRequestActivitiesInteraction_2.0_RIVTABP21.wsdl";
 
   public ServiceConfiguration() {
     setProducerAddress("http://localhost:8083/vp");
