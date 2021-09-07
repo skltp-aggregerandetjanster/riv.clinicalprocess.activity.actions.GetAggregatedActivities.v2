@@ -61,10 +61,10 @@ public class ServiceTestDataGenerator extends TestDataGenerator {
 		author.setTimestamp("20200101151300");
 
 		ach.setOriginalPatientId(createIIType("", registeredResidentId));
-		ach.setAccountableCareGiver(createIIType("root","AccountableCareGiver"));
+		ach.setAccountableHealthcareProvider(createIIType("root","AccountableCareGiver"));
 		ach.setAccountableCareUnit(createIIType("root","AccountableCareUnit"));
 		ach.setApprovedForPatient(true);
-		ach.setCareProcessId(businessObjectId);
+		ach.setCareProcessId(createIIType("root", businessObjectId));
 
 		body.setStatusCode(createCV("1.2.752.129.2.2.2.43", "7"));
 		body.setEventTime("20200115153000");

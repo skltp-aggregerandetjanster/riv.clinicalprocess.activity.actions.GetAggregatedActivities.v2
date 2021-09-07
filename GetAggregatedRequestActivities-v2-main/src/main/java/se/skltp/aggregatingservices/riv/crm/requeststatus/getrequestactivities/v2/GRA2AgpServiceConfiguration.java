@@ -11,7 +11,7 @@ import riv.crm.requeststatus.getrequestactivities.v2.rivtabp21.GetRequestActivit
 @ConfigurationProperties(prefix = "getaggregatedrequestactivities.v2")
 public class GRA2AgpServiceConfiguration extends se.skltp.aggregatingservices.configuration.AgpServiceConfiguration {
 
-public static final String SCHEMA_PATH = "/schemas/TD_REQUESTSTATUS_20200218/interactions/GetRequestActivitiesInteraction/GetRequestActivitiesInteraction_2.0_RIVTABP21.wsdl";
+public static final String SCHEMA_PATH = "/schemas/interactions/GetRequestActivitiesInteraction/GetRequestActivitiesInteraction_2.0_RIVTABP21.wsdl";
 
   public GRA2AgpServiceConfiguration() {
 
