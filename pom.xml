@@ -11,7 +11,7 @@
 
   <groupId>se.skltp.aggregatingservices.riv.crm.requeststatus</groupId>
   <artifactId>GetAggregatedRequestActivities-v2</artifactId>
-  <version>1.0.0-RC2</version>
+  <version>1.0.0-RC3-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>GetAggregatedRequestActivities-v2</name>
 
@@ -30,7 +30,7 @@
     <developerConnection>
       scm:git:https://github.com:443/skltp-aggregerandetjanster/riv.crm.requeststatus.GetAggregatedRequestActivities.v2.git
     </developerConnection>
-    <tag>GetAggregatedRequestActivities-v2-1.0.0-RC2</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <modules>
