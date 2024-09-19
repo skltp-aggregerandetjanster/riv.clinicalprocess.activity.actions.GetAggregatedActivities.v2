@@ -11,7 +11,7 @@
 
   <groupId>se.skltp.aggregatingservices.riv.crm.requeststatus</groupId>
   <artifactId>GetAggregatedRequestActivities-v2</artifactId>
-  <version>1.0.0-RC3-SNAPSHOT</version>
+  <version>1.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>GetAggregatedRequestActivities-v2</name>
 
